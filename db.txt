@@ -1,0 +1,26 @@
+Usuario:{
+	cedula, nombre, apellido, telefono, correo, clave, direccio,"Roles";
+};
+
+Roles:{
+	id, nombre;
+};
+
+Mesa:{
+	id, ubicacion, fecha, clave, estado, "Usuario", "Carrito";
+};
+
+Categorias:{
+	id, nombre;
+};
+
+Productos:{
+	id, nombre, precio, imagenes, "Catagoria";
+};
+
+Carrito:{
+	id, coste, "Productos", fecha, medio de pago;
+};
+
+
+
